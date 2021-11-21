@@ -1,0 +1,72 @@
+/* fonts */
+/* 
+    font-family: 'Cinzel', serif;
+    font-family: 'PT Serif', serif;
+*/
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body,
+h1,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  margin-inline: auto;
+  margin-top: 13.375rem;
+  text-align: center;
+  margin-bottom: 6.8125rem;
+}
+
+.container {
+  width: 90%;
+  max-width: 39rem;
+  margin: 0 auto;
+  text-align: left;
+  color: #5b5b5b;
+  font-family: 'PT Serif', serif;
+  font-weight: 400;
+  font-size: 1.3125rem;
+  line-height: 2.1rem;
+}
+
+.container > *:not(:last-child) {
+  margin-bottom: 1rem;
+}
+
+h1 {
+  margin-inline: auto;
+  font-family: 'Cinzel', serif;
+  font-weight: 900;
+  font-size: 6rem;
+  line-height: 4.875rem;
+  color: #414141;
+  margin-bottom: 1.5rem;
+  max-width: 90%;
+}
+
+.subtitle {
+  max-width: 60%;
+  margin-inline: auto;
+  font-weight: 400;
+  font-size: 2.25rem;
+  line-height: 2.625rem;
+  color: #7d7d7d;
+}
+
+strong,
+a {
+  font-weight: 700;
+  font-size: 1.125rem;
+  line-height: 1.8rem;
+}
+
+a {
+  color: #ca5e10;
+}

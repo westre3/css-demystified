@@ -1,0 +1,81 @@
+/* Font used
+font-family: 'PT Sans', sans-serif; 
+*/
+
+:root {
+    --ff-sans: 'PT Sans', sans-serif;
+    
+    --fw-normal: 400;
+    --fw-bold: 700;
+
+    --fs-normal: 1.25rem;
+    --fs-large: 2.25rem;
+    --fs-button: 1.125rem;
+
+    --clr-dark: #171717;
+    --clr-white: #fff;
+    --clr-accent: #59E89C;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body,
+h1,
+h2,
+h3,
+p,
+a {
+    margin: 0;
+    padding: 0;
+}
+
+.bold {
+    font-weight: var(--fw-bold);
+}
+
+body {
+    font-family: var(--ff-sans, sans-serif);
+    font-weight: var(--fw-normal, 400);
+    font-size: var(--fs-normal, 1rem);
+    text-align: center;
+}
+
+.hero {
+    background-image: url(./assets/hero.jpg);
+    background-size: cover;
+    background-position: center;
+    padding-block: 10em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero .content {
+    background: white;
+    width: 40em;
+    padding: 3em;
+}
+
+h1 {
+    font-weight: var(--fw-normal, 400);
+    font-size: var(--fs-large);
+    margin-bottom: 1em;
+}
+
+.description {
+    line-height: 1.5;
+    margin-bottom: 1em;
+}
+
+.button {
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    background: var(--clr-accent);
+    color: var(--clr-dark);
+    padding: 1em 2em;
+}
